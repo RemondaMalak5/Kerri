@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/12a510ee-0e3d-46df-acd4-c5249ccdca03.jfif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.211);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(230, 95, 120) !important;
+}
+
+.navbar-nav .nav-link {
+    color: fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(230, 95, 120)
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+.contect h1 {
+    font-size: 60px;
+}
+
+.setting {
+    position: relative;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(43, 36, 36);
+
+}
+
+.setting .icon {
+    font-size: 20px;
+
+}
+
+.mouse {
+    width: 30px;
+    height: 50px;
+    bottom: 20px;
+
+}
+
+.mouse::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background-color: fff;
+    left: 50%;
+    transform: translatex(-50%);
+    bottom: 3px;
+
+}
+
+.service {
+    background-color: rgba(128, 128, 128, 0.164);
+}
+
+
+.service p {
+    max-width: 500px;
+
+}
+
+.service .card-body i {
+    font-size: 40px;
+    color: rgb(230, 95, 120);
+}
+
+
+.service .card-body h5::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: rgb(230, 95, 120);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: 1s;
+
+}
+.service .card-body:hover h5::after{
+    width: 60px;
+}
+
+.client p{
+    max-width: 500px;
+
+}
